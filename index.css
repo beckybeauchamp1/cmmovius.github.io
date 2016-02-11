@@ -2,6 +2,7 @@ body {
   width: 60em;
   margin: 0 auto;
   font-family: 'Ubuntu', sans-serif;
+  background-color: #ccffff;
   /*background: url('background_waves.jpg');
   background-size: cover;
   background-position: center;*/
@@ -16,9 +17,9 @@ header img {
 
 div {
   background-color: #00264d;
-  background: linear-gradient(top, rgba(0,26,61,.85), rgba(0,26,61,.85));
+  /*background: linear-gradient(top, rgba(0,26,61,.85), rgba(0,26,61,.85));
   background: -webkit-linear-gradient(top, rgba(0,26,61,.85), rgba(0,26,61,.85));
-  background: -moz-linear-gradient(top, rgba(0,26,61,.85), rgba(0,26,61,.85));
+  background: -moz-linear-gradient(top, rgba(0,26,61,.85), rgba(0,26,61,.85));*/
   color: white;
   padding: 10px;
   margin-top: 20px;
