@@ -1,15 +1,8 @@
 body {
   margin: 0 auto;
   font-family: 'Ubuntu', sans-serif;
-  background-color: #ccffff;
+  background-color: #00264d;
 }
-
-/*header img {
-  display: block;
-  margin: 0 auto;
-  width: 60em;
-  border-radius: 10px;
-}*/
 
 header {
   background: url('background_trees.jpg');
@@ -43,4 +36,10 @@ div {
 .bio {
   background-color: #00264d;
   text-align: left;
+}
+
+img {
+  float: right;
+  border-radius: 10px;
+  width: 20em;
 }
