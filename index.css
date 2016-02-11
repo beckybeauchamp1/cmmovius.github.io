@@ -3,23 +3,24 @@ body {
   margin: 0 auto;
   font-family: 'Ubuntu', sans-serif;
   background-color: #ccffff;
-  /*background: url('background_waves.jpg');
+  background: url('background_trees.jpg');
   background-size: cover;
-  background-position: center;*/
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-header img {
+/*header img {
   display: block;
   margin: 0 auto;
   width: 60em;
   border-radius: 10px;
-}
+}*/
 
 div {
   background-color: #00264d;
-  /*background: linear-gradient(top, rgba(0,26,61,.85), rgba(0,26,61,.85));
-  background: -webkit-linear-gradient(top, rgba(0,26,61,.85), rgba(0,26,61,.85));
-  background: -moz-linear-gradient(top, rgba(0,26,61,.85), rgba(0,26,61,.85));*/
+  background: linear-gradient(top, rgba(0,26,61,.85), rgba(0,26,61,.80));
+  background: -webkit-linear-gradient(top, rgba(0,26,61,.85), rgba(0,26,61,.80));
+  background: -moz-linear-gradient(top, rgba(0,26,61,.85), rgba(0,26,61,.80));
   color: white;
   padding: 10px;
   margin-top: 20px;
