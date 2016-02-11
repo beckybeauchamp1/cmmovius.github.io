@@ -1,5 +1,4 @@
 body {
-  /*width: 60em;*/
   margin: 0 auto;
   font-family: 'Ubuntu', sans-serif;
   background-color: #ccffff;
@@ -27,8 +26,6 @@ div {
   color: white;
   padding: 10px;
   text-align: center;
-  /*margin-top: 20px;
-  border-radius: 10px;*/
 }
 
 .name {
@@ -42,10 +39,6 @@ div {
 .nav {
   padding: 0 5%;
 }
-/*li {
-  display: inline;
-  padding: 0 78px;
-}*/
 
 .bio {
   background-color: #00264d;
