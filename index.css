@@ -36,10 +36,11 @@ div {
 .bio {
   background-color: #00264d;
   text-align: left;
+  padding: 10px 30px;
 }
 
 img {
   float: right;
   border-radius: 10px;
-  width: 20em;
+  width: 10em;
 }
