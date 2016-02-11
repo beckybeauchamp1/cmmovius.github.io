@@ -2,6 +2,9 @@ body {
   width: 60em;
   margin: 0 auto;
   font-family: 'Ubuntu', sans-serif;
+  /*background: url('background_waves.jpg');
+  background-size: cover;
+  background-position: center;*/
 }
 
 header img {
