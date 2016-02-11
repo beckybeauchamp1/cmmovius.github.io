@@ -26,27 +26,28 @@ div {
   background: -moz-linear-gradient(top, rgba(0,26,61,.85), rgba(0,26,61,.80));
   color: white;
   padding: 10px;
+  text-align: center;
   /*margin-top: 20px;
   border-radius: 10px;*/
-}
-
-.space {
-  margin-bottom: 400px;
-}
-
-h1 {
-  text-align: center;
 }
 
 .name {
   font-size: 3em;
 }
 
-li {
+#pic-space {
+  margin-bottom: 400px;
+}
+
+.nav {
+
+}
+/*li {
   display: inline;
   padding: 0 78px;
-}
+}*/
 
 .bio {
   background-color: #00264d;
+  text-align: left;
 }
