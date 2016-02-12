@@ -54,7 +54,7 @@ a:active {
     color: white;
 }
 
-.bio {
+#bio {
   background-color: #00264d;
   text-align: left;
   padding: 10px 30px;
