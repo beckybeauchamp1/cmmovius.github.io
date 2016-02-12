@@ -2,6 +2,7 @@ body {
   margin: 0 auto;
   font-family: 'Ubuntu', sans-serif;
   background-color: #00264d;
+  color: white;
 }
 
 header {
@@ -16,7 +17,6 @@ div {
   background: linear-gradient(top, rgba(0,26,61,.85), rgba(0,26,61,.80));
   background: -webkit-linear-gradient(top, rgba(0,26,61,.85), rgba(0,26,61,.80));
   background: -moz-linear-gradient(top, rgba(0,26,61,.85), rgba(0,26,61,.80));
-  color: white;
   padding: 10px;
   text-align: center;
 }
@@ -31,33 +31,37 @@ div {
 
 .nav {
   padding: 0 5%;
-  text-decoration: none;
 }
 
 /* unvisited link */
 a:link {
     color: white;
+    text-decoration: none;
 }
 
 /* visited link */
 a:visited {
     color: white;
+    text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
     color: #99ccff;
+    text-decoration: none;
 }
 
 /* selected link */
 a:active {
     color: white;
+    text-decoration: none;
 }
 
 #bio {
   background-color: #00264d;
   text-align: left;
   padding: 10px 30px;
+  line-height: 200%;
 }
 
 img {
@@ -70,6 +74,17 @@ img {
 }
 
 #contact {
-  text-align: left;
-  padding: 10px 30px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  background: linear-gradient(top, rgba(0,26,61,.85), rgba(0,26,61,.70));
+  background: -webkit-linear-gradient(top, rgba(0,26,61,.85), rgba(0,26,61,.70));
+  background: -moz-linear-gradient(top, rgba(0,26,61,.85), rgba(0,26,61,.70));
+}
+
+footer {
+  background: url('background_trees.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
