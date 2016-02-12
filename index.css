@@ -67,3 +67,8 @@ img {
   margin-left: 10px;
   margin-bottom: 10px;
 }
+
+#contact {
+  text-align: left;
+  padding: 10px 30px;
+}
