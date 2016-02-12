@@ -1,3 +1,4 @@
+/*Whole Body Container*/
 body {
   margin: 0 auto;
   font-family: 'Ubuntu', sans-serif;
@@ -6,6 +7,7 @@ body {
   width: 60em;
 }
 
+/*Header Tree Image*/
 header {
   background: url('background_trees.jpg');
   background-size: cover;
@@ -13,6 +15,7 @@ header {
   background-repeat: no-repeat;
 }
 
+/*ALL Div's translucent unless I say otherwise. May have to readjust this later.*/
 div {
   background-color: #00264d;
   background: linear-gradient(top, rgba(0,26,61,.85), rgba(0,26,61,.80));
@@ -22,14 +25,18 @@ div {
   text-align: center;
 }
 
+/*Makes Name Extra Large*/
 .name {
   font-size: 3em;
 }
 
+/*Increases margin between name-title and navigation bar so image can be seen better.*/
 #pic-space {
   margin-bottom: 400px;
 }
 
+/*Spaces out items evenly on the top navigation bar.*/
+/*Will probably have to make this an inline list instead if I want to make it responsive*/
 .nav {
   padding: 0 5%;
 }
@@ -58,6 +65,7 @@ a:active {
     text-decoration: none;
 }
 
+/*Makes Bio solid background, rather than translucent.*/
 #bio {
   background-color: #00264d;
   text-align: left;
@@ -65,6 +73,7 @@ a:active {
   line-height: 200%;
 }
 
+/*Stlying for headshot image*/
 img {
   float: right;
   border-radius: 10px;
@@ -74,15 +83,14 @@ img {
   border: solid .1em #1E2E48;
 }
 
+/*Styling for TEXT BOX in contact footer section*/
 #contact {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 30px;
-  background: linear-gradient(top, rgba(0,26,61,.85), rgba(0,26,61,.70));
-  background: -webkit-linear-gradient(top, rgba(0,26,61,.85), rgba(0,26,61,.70));
-  background: -moz-linear-gradient(top, rgba(0,26,61,.85), rgba(0,26,61,.70));
 }
 
+/*Styling for IMAGE underneath footer text box*/
 footer {
   background: url('background_trees.jpg');
   background-size: cover;
