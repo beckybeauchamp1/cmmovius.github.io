@@ -3,6 +3,7 @@ body {
   font-family: 'Ubuntu', sans-serif;
   background-color: #00264d;
   color: white;
+  width: 60em;
 }
 
 header {
